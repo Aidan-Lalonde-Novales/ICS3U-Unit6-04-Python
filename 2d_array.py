@@ -44,7 +44,7 @@ def main():
         for counter_rows in range(0, rows):
             temp_array = []
             for counter_columns in range(0, columns):
-                random_num = random.randint(0, 50)
+                random_num = random.randint(1, 50)
                 temp_array.append(random_num)
                 print("{} ".format(random_num), end="")
             num_array.append(temp_array)
